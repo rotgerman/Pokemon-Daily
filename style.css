@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital@1&family=Finger+Paint&family=Open+Sans&display=swap');
+
+/* general */
+
+*{
+    padding: 1%;
+    margin: 0%;
+    font-family:'Open Sans','Times New Roman', sans-serif;
+}
+
+img{
+    filter: saturate(0%) sepia(20%);
+}
+
+h1{
+    display: none;
+}
+
+h2{
+    font-size: 2.4em;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+/* header */
+
+header{
+    position: sticky;
+    top: 0%;
+    background-color: rgba(207, 192, 76, 0.5);
+    z-index: 10;
+    padding: 0.5%;
+}
+
+header img{
+    width: 40%;
+    margin: auto;
+    display: block;
+    margin-top: 0%; 
+}
+
+/* navbar */
+
+nav{
+    background-color: rgba(255, 255, 255, 0.445);
+    z-index: 10;
+}
+
+ul{
+    text-align: center;
+}
+
+li{
+
+    display: inline;
+        /* primer letra mayuscula */
+    text-transform: capitalize;
+    font-size: 1.5em;
+    /* el orden en el que pasamos parametros: arriba, derecha, abajo, izquierda. Si hay solo dos: abajo/arriba, izquierda/derecha */
+    padding: 0.5% 2%;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+}
+
+li:hover{
+    background-color: rgb(235, 217, 121);
+    border-radius: 5%;
+}
+
+/* principal */
+
+.principal{
+    display: flex;
+    padding: 3%;
+    justify-content: space-between;
+    background-color: rgb(218, 218, 218);
+}
+
+/* news! */
+
+main{
+    width: 55%;
+}
+
+main .reporterName{
+    font-family:sans-serif;
+}
+
+main .photo{
+    max-width: 800px;
+
+}
+
+main h2{
+    font-size:2.4em;
+}
+
+main .info{
+    display: flex;
+}
+
+main .info p {
+    padding: 1%;
+    text-align:justify;
+}
+
+/* aside */
+
+aside {
+    width: 30%;
+    border-left: 2px solid black;
+}
+
+aside .anuncios{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} 
+
+aside img{
+   width: 90%; 
+}
+
+
+/* form */
+
+.subscribe{
+    background-image: url("assets/buen\ fondo.jpg");
+    background-size: cover;
+    margin: auto;
+    border-top: 3px solid black;
+}
+
+.subscribe form label img{
+    width: 20%;
+}
+
+.subscribe h2{
+    background-color: rgb(228, 238, 210);
+    width: 37%;
+    border-radius: 1%;
+}
+
+.subscribe h3{
+    background-color: rgb(228, 238, 210);
+    width: 20%;
+    border-radius: 1%;
+}
+
+form input{
+    padding: 12px 20px;
+    /* margin: 8px 0; */
+}
+
+form label .datos{
+    display: flex;
+    flex-direction: column;
+}
+
+form label.usuario{
+    justify-content: space-between;
+    display: flex;
+    width: 80%;
+}
+
+form button{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    text-align: center;
+    padding: 12px 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgb(221, 221, 221, 0.35);
+}
+
+.datos2 img{
+    filter:none;
+}
+
+footer{
+    background-color: burlywood;
+    display: flex;
+}
+

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Pokemon Daily</title>
+</head>
+<body>
+
+    <header>
+        <img src="./assets/pokemon logo.png" alt="logo">
+        <h1>The pokemon Daily</h1>
+
+        <nav>
+            <ul>
+                <li><a href="./info.html">Ultimas noticias!</a></li>
+                <li><a href="./info.html">Pokedex</a></li>
+                <li><a href="./info.html">Temporadas</a></li>
+                <li><a href="./info.html">Peliculas</a></li>
+                <li><a href="./info.html">Juegos</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="principal">
+        <main>
+            <article>
+                <h2>La revancha: Charizard VS Gyarados</h2>
+                <p class="reporterName">Por profesor Oak</p>
+                    <img  src="./assets/gyarados vs charizard.jpg" alt="batalla" class="photo">
+                    <figcaption>
+                        Gyarados ataca a Charizard
+                    </figcaption>
+                <div class="info">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo exercitationem, earum quia laboriosam voluptas fugiat molestias possimus vel amet corrupti odit corporis nostrum porro vero. Nihil a ipsa quo deleniti.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo exercitationem, earum quia laboriosam voluptas fugiat molestias possimus vel amet corrupti odit corporis nostrum porro vero. Nihil a ipsa quo deleniti.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo exercitationem, earum quia laboriosam voluptas fugiat molestias possimus vel amet corrupti odit corporis nostrum porro vero. Nihil a ipsa quo deleniti.</p>
+                </div>
+            </article>  
+
+            <article>
+                <h2>El pokemon con 8 evoluciones:" Eevee</h2>
+                <p class="reporterName">Por Enfermera Joy</p>
+                <img src="./assets/evoluciones eevee.jpg" alt="">
+                <figcaption>El pokemon cambiante</figcaption>
+                <div class="info">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolor maiores eos est velit alias numquam quam quidem sequi nam, ipsam dolore sit exercitationem at nemo perferendis laborum placeat consequatur!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolor maiores eos est velit alias numquam quam quidem sequi nam, ipsam dolore sit exercitationem at nemo perferendis laborum placeat consequatur!</p>
+                </div>
+            </article>
+        </main>
+
+        <aside>
+                <article>
+                    <h2>Seccion publicitaria</h2>
+                    <h3>Juega pokemon unite</h3>
+                    <div class="anuncios">
+                        <figure>
+                            <img src="./assets/Pokemon-Unite_1485461460_725471_1440x600.png" alt="bat-signal">
+                            <figcaption>Disponible el 22 de septiembre</figcaption>
+                        </figure>
+    
+                        <figure>
+                            <img src="./assets/startadventure.jpg" alt="Amazon">
+                            <figcaption>Comienza tu aventura!</figcaption>
+                        </figure>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis dolor harum aut atque corrupti facere neque, expedita fuga at provident deleniti pariatur exercitationem consectetur voluptates doloribus quis quasi esse dolorem!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis dolor harum aut atque corrupti facere neque, expedita fuga at provident deleniti pariatur exercitationem consectetur voluptates doloribus quis quasi esse dolorem!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis dolor harum aut atque corrupti facere neque, expedita fuga at provident deleniti pariatur exercitationem consectetur voluptates doloribus quis quasi esse dolorem!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis dolor harum aut atque corrupti facere neque, expedita fuga at provident deleniti pariatur exercitationem consectetur voluptates doloribus quis quasi esse dolorem!</p>
+                </article>
+                <img class="peli" src="./assets/kantopoke.jpg" alt="kantopoke">                    
+        </aside>
+    </div>
+    
+    <div class="subscribe">
+        <h2>Recibe tu primer pokemon!</h2>
+        <form action="/" method="GET">
+            <div class="datos">
+            <h3>Datos de entrenador</h3>
+            
+                <label class="usuario">Nombre</label>
+                <input type="text" name="suscriberName" placeholder="Ash"required>
+                <label class="usuario">Apellido</label>
+                <input type="text" name="suscriberLastName" placeholder="Ketchup"required>
+                <label class="usuario">email</label>     
+                <input type="email" name="suscriberLastName" placeholder="Pokemon@gmail.com"required>
+                <label class="usuario">Edad</label>
+                <input type="number" name="edad" min="10">
+            </div>
+            <div class="datos2">
+            <h3>So are you a boy or a girl?</h3>
+                <label>
+                    <input type="checkbox" name="boy" value="Boy" >Boy
+                    <input type="checkbox" name="girl" value="Girl" >Girl
+                 </label>
+
+            <h3>Region de Origen</h3>
+                <select name="city">
+                    <option class="cityText" value="Kanto">Kanto</option>
+                    <option class="cityText" value="Jhoto">Jhoto</option>
+                    <option class="cityText" value="Hoen">Hoen</option>
+                    <option class="cityText" value="Sinnoh">Sinnoh</option>
+                    <option class="cityText" value="Unova">Unova</option>
+                    <option class="cityText" value="Kalos">Kalos</option>
+                    <option class="cityText" value="Alola">Alola</option>
+                    <option class="cityText" value="Galar">Galar</option>
+                </select>
+
+            <h3>Elige un pokemon</h3>
+                <label for="valor 1">SQUIRTLE
+                <input type="radio" name="choose" id="valor 1" value="squirtle">
+                <img src="./assets/Squirtle (1).png">
+                </label>
+                <label for="valor 2">BULLBASAUR
+                <input type="radio" name="choose" id="valor 2" value="Bullbasaur" checked>
+                <img src="./assets/Bulbasaur.png">
+                </label>
+                <label for="valor 3">CHARMANDER
+                <input type="radio" name="choose" id="valor 3" value="charmander">
+                <img src="./assets/Charmander.png">
+                </label>
+                <br>
+                <br>
+                <button>Suscribirse!!</button>
+            </div>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <p>  &copy; Pueblo Paleta 1992
+        </p>
+            <p">Hecho por Ger para: <a href="https://www.instagram.com/rotgerman" target="blanck">Nucba </a></p>
+     </footer>
+     
+</body>
+</html>
